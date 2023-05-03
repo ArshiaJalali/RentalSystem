@@ -5,7 +5,7 @@ public class Customer {
     private String name, email, phone, address;
     private int id;
     private List<Rental> rentals;
- 
+  
     public Customer(String name, String email, String phone, String address, int id) {
         rentals = new ArrayList<Rental>();
         this.name = name;
@@ -14,7 +14,7 @@ public class Customer {
         this.address = address;
         this.id = id;
     }
- 
+
     public String getName() {
         return name;
     }
