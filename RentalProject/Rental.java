@@ -21,7 +21,7 @@ public class Rental {
     public int getId() {
         return id;
     }
-
+ 
     public Date getRentalDate() {
         return rentalDate;
     }

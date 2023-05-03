@@ -34,7 +34,7 @@ public class Movie {
     public Date getReleaseDate() {
         return releaseDate;
     }
-
+ 
     public int getId() {
         return id;
     }

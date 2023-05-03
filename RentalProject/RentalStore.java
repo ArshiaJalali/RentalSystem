@@ -9,7 +9,7 @@ public class RentalStore {
   public void register(Customer customer) {
     customers.add(customer);
   }
-
+ 
   public void addMovie(Movie movie) {
     movies.add(movie);
   }
