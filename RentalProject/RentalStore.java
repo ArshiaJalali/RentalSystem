@@ -21,6 +21,7 @@ public class RentalStore {
         for (Customer customer : customers) {
           for (int j = 0; j < customer.getRentals().size(); j++) {
             if (customer.getRentals().get(j).getItem().equals(item)) {
+              customers.remove(customer);
               customer.getRentals().remove(j);
             }
           }
@@ -41,6 +42,8 @@ public class RentalStore {
   public void rentItem(Item item, Customer customer) {
     int id = Integer.parseInt(item.getId() + "" + customer.getId());
     Rental rent = new Rental(item, customer, id);
+     items.add(item);
+    customers.add(customer);
     customer.getRentals().add(rent);
   }
 
@@ -51,6 +54,8 @@ public class RentalStore {
           rental.setReturnDate(new Date());
           rental.getItem().setAvailable(true);
           customer.getRentals().remove(j);
+           items.remove(rental.getItem());
+          customers.remove(customer);
         }
       }
     }
