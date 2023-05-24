@@ -8,7 +8,7 @@ public class App {
     public static void main(String[] args) throws IOException {
         // read from json
         Gson gson = new Gson();
-        Reader reader = new FileReader("D:\\java\\RentalSystem\\ProjectTest\\src\\test\\TestYourFork.json");
+        Reader reader = new FileReader("C:\\Users\\Parsian\\Desktop\\New folder (2)\\RentalSystem\\src\\test\\TestYourFork.json");
         AllModule allModuleList = gson.fromJson(reader, new TypeToken<AllModule>() {
         }.getType());
         reader.close();
@@ -45,7 +45,7 @@ public class App {
             }
             /// write in json
             String json = gson.toJson(allModuleList);
-            String filePath = "D:\\java\\RentalSystem\\ProjectTest\\src\\test\\TestYourFork.json";
+            String filePath = "C:\\Users\\Parsian\\Desktop\\New folder (2)\\RentalSystem\\src\\test\\TestYourFork.json";
             try {
                 FileWriter writer = new FileWriter(filePath);
                 writer.write(json);

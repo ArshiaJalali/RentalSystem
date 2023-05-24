@@ -282,7 +282,7 @@
             "rentals": []
           },
           "id": 31,
-          "rentalDate": "May 20, 2023, 11:21:28 PM"
+          "rentalDate": "May 24, 2023, 2:35:30 PM"
         },
         {
           "item": {
@@ -303,7 +303,7 @@
             "rentals": []
           },
           "id": 61,
-          "rentalDate": "May 20, 2023, 11:21:28 PM"
+          "rentalDate": "May 24, 2023, 2:35:30 PM"
         }
       ]
     },
@@ -333,7 +333,7 @@
             "rentals": []
           },
           "id": 12,
-          "rentalDate": "May 20, 2023, 11:21:28 PM"
+          "rentalDate": "May 24, 2023, 2:35:30 PM"
         },
         {
           "item": {
@@ -354,7 +354,7 @@
             "rentals": []
           },
           "id": 72,
-          "rentalDate": "May 20, 2023, 11:21:28 PM"
+          "rentalDate": "May 24, 2023, 2:35:30 PM"
         }
       ]
     },
@@ -384,7 +384,7 @@
             "rentals": []
           },
           "id": 43,
-          "rentalDate": "May 20, 2023, 11:21:28 PM"
+          "rentalDate": "May 24, 2023, 2:35:30 PM"
         },
         {
           "item": {
@@ -403,9 +403,9 @@
             "address": "789 Elm Street",
             "id": 3,
             "rentals": []
-          }, 
+          },
           "id": 93,
-          "rentalDate": "May 20, 2023, 11:21:28 PM"
+          "rentalDate": "May 24, 2023, 2:35:30 PM"
         }
       ]
     }
